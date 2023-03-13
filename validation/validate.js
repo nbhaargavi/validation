@@ -1,5 +1,3 @@
-
-
 let nameInvalid = document.getElementById('p1');
 let mailInvalid = document.getElementById('p2');
 let numInvalid = document.getElementById('p3');
