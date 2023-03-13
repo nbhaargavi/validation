@@ -1,0 +1,56 @@
+body{
+    background-color:cadetblue;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    margin-top: 80px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input:focus {
+    /* outline: none; */
+    border-color: #0088cc;
+  }
+  
+  button {
+    background-color: #0088cc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #006699;
+  }
+  
+  span {
+    font-size: 15px;
+    color: rgb(240, 41, 41);
+    display: block;
+    margin-top: 5px;
+  }
+  
+  /* @media only screen and (max-width: 600px) {
+    form {
+      max-width: 100%;
+      padding: 0 10px;
+    }
+  } */

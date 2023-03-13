@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  a href="validate.css">
+    <title>validating form</title>
+</head>
+<body>
+    <!-- onsubmit="return validate()" action="dynamic.html" autocomplete="off" -->
+    <form onsubmit="event.preventDefault()" autocomplete="off">
+        <h2>FORM</h2>
+        <div>
+            <label>Name :</label>
+            <input type="text" id="nameid" placeholder="Enter your full name" onkeyup="name_valid()">
+            <span id="p1"></span>
+        </div>
+        <div>
+            <label>Email :</label>
+            <input type="text" id="mailid" placeholder="Enter a valid email id" onkeyup="mail_valid()">
+            <span id="p2"></span>
+        </div>
+        <div class="phno">
+            <label>Mobile Number :</label>
+            <input type="number" id="phnoid" placeholder="Enter a 10 digit phno" onkeyup="phno_valid()">
+            <span id="p3"></span>
+        </div>
+        <div>
+            <label>Date of Birth</label>
+            <input type="date" id="dateid" placeholder="Enter your dob" onkeyup="date_valid()">
+            <span id="p4"></span>
+        </div>
+        <div  >
+            <button onclick="sub()">Submit</button>
+            <span id="s1"></span>
+        </div>
+    </form>
+   
+    <script src="validate.js"></script>
+</body>
+</html>
