@@ -1,8 +1,5 @@
 
 
-//  let namee = document.getElementById('nameid').value;
-//  let mail =  document.getElementById('mailid').value;
-
 let nameInvalid = document.getElementById('p1');
 let mailInvalid = document.getElementById('p2');
 let numInvalid = document.getElementById('p3');
@@ -83,19 +80,6 @@ function date_valid()
 
 function sub()
 {
-    // if(namee=="" || mail=="" ||number=="" ||dat=="")
-    // {
-    //     nameInvalid.innerHTML = 'Name field cannot be empty';
-    //     mailInvalid.innerHTML = 'mail id required';
-    //     numInvalid.innerHTML = '10 digit phn num required';
-    //     dateInvalid.innerHTML = "required";
-    //     return false;
-    // }
-    // else{
-    //     return true;
-    //     submitInvalid.innerHTML = "";
-    //     refresh();
-    // }
     if(!name_valid() || !mail_valid()  || !phno_valid()|| !date_valid())
     {
         submitInvalid.innerHTML = "Fill the requirements to continue";
